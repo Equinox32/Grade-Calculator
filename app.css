@@ -1,3 +1,75 @@
-.list-group-item input{
+i {
+    color: red;
+    padding: 5px;
+}
+
+nav {
+    background-color: #a90b24;
+
+}
+
+a {
+    color: white !important;
+}
+
+.navbar-brand , .navbar a {
+    font-weight: 700 !important;
+    font-size: 1.3em;
+}
+
+.container-fluid {
+    margin: 15px;
+}
+
+.form-group {
+    padding: 0 !important;
+}
+
+.card {
+    margin-top: 7px;
+}
+
+.btn, .btn-large {
+
+    color: black !important;
+}
+
+.addGrade {
+    background-color: black !important;
+    color: white !important;
+    margin-bottom: 0 !important;
+}
+
+body {
+    background-color: #D3D4D9;
+    /* background-color: #6D7275; */
+}
+
+.modal-dialog, .modal-dialog-centered {
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.finalGrade {
+    margin-top: 9px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .card-deck  {
+        display: inline-block; 
+        /* flex-wrap:  */
     
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    nav button a {
+        position: absolute;
+        float: right;
+        /* flex-wrap:  */
+    }
+
 }
