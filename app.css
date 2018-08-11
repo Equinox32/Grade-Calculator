@@ -12,6 +12,10 @@ a {
     color: white !important;
 }
 
+.row {
+    padding: 45px;
+}
+
 .navbar-brand , .navbar a {
     font-weight: 700 !important;
     font-size: 1.3em;
